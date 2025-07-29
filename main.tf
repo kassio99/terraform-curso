@@ -6,7 +6,7 @@ terraform {
 }
 
 provider "aws"  {
-    profile = "default"
+    profile = "pessoal"
     shared_credentials_file = "~/.aws/credentials"
     region = "us-eat-1"
 }
